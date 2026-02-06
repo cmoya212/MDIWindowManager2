@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);WFO1000</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="SystemTabsProvider.Designer.vb" />
+    <Compile Remove="SystemTabsProvider.vb" />
+    <Compile Remove="WindowManager.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="SystemTabsProvider.resx" />
+    <EmbeddedResource Remove="WindowManager.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="WindowManager.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+</Project>

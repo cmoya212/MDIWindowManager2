@@ -1,0 +1,17 @@
+*** MDIWindowManager ***
+
+MDIWindowManager magically converts any MDI application into a
+modern tabbed (TDI) application. Windows remain just plain
+WinForms windows (WPF is supported too) and do not require any
+special or custom code. The forms can live in any library and
+the application can be architected with proper
+Separation-of-concerns.
+
+Tiling support is built-in and windows can be popped out onto
+the Windows desktop.
+
+For an advanced example that displays a complex 3-pane interface
+typical in many internal business / corporate applications, click
+the View | Advanced MDI Example menu item. The advanced example
+also demonstrates WPF support!
+
